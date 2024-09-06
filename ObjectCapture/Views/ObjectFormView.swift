@@ -8,7 +8,7 @@
 import SafariServices
 import SwiftUI
 import UniformTypeIdentifiers
-import USDZScanner
+import USDZARCamera
 
 struct ObjectFormView: View {
     

@@ -20,7 +20,7 @@
 		5D2D74452C89B4D000000AB6 /* ObjectsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2D74442C89B4D000000AB6 /* ObjectsListView.swift */; };
 		5D2D74482C89B9DB00000AB6 /* ObjectFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2D74472C89B9DB00000AB6 /* ObjectFormView.swift */; };
 		5D2D744B2C89BA3100000AB6 /* ObjectFormVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2D744A2C89BA3100000AB6 /* ObjectFormVM.swift */; };
-		5D2D744F2C89E4D500000AB6 /* USDZScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 5D2D744E2C89E4D500000AB6 /* USDZScanner */; };
+		5DF643B62C8B0D4800DD3FA5 /* USDZARCamera in Frameworks */ = {isa = PBXBuildFile; productRef = 5DF643B52C8B0D4800DD3FA5 /* USDZARCamera */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,9 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2D744F2C89E4D500000AB6 /* USDZScanner in Frameworks */,
 				5D2D74122C89A19000000AB6 /* FirebaseFirestore in Frameworks */,
 				5D2D74142C89A19000000AB6 /* FirebaseStorage in Frameworks */,
+				5DF643B62C8B0D4800DD3FA5 /* USDZARCamera in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +173,7 @@
 			packageProductDependencies = (
 				5D2D74112C89A19000000AB6 /* FirebaseFirestore */,
 				5D2D74132C89A19000000AB6 /* FirebaseStorage */,
-				5D2D744E2C89E4D500000AB6 /* USDZScanner */,
+				5DF643B52C8B0D4800DD3FA5 /* USDZARCamera */,
 			);
 			productName = ObjectCapture;
 			productReference = 5D0026222C89729000A30281 /* ObjectCapture.app */;
@@ -205,7 +205,7 @@
 			mainGroup = 5D0026192C89729000A30281;
 			packageReferences = (
 				5D2D740F2C89A06800000AB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				5D2D744D2C89E4D500000AB6 /* XCRemoteSwiftPackageReference "USDZScanner" */,
+				5DF643B42C8B0D4800DD3FA5 /* XCRemoteSwiftPackageReference "USDZARCamera" */,
 			);
 			productRefGroup = 5D0026232C89729000A30281 /* Products */;
 			projectDirPath = "";
@@ -463,12 +463,12 @@
 				minimumVersion = 11.1.0;
 			};
 		};
-		5D2D744D2C89E4D500000AB6 /* XCRemoteSwiftPackageReference "USDZScanner" */ = {
+		5DF643B42C8B0D4800DD3FA5 /* XCRemoteSwiftPackageReference "USDZARCamera" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/alfianlosari/USDZScanner.git";
+			repositoryURL = "https://github.com/JeckyKukadiya/USDZARCamera";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.0;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -484,10 +484,10 @@
 			package = 5D2D740F2C89A06800000AB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
 		};
-		5D2D744E2C89E4D500000AB6 /* USDZScanner */ = {
+		5DF643B52C8B0D4800DD3FA5 /* USDZARCamera */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5D2D744D2C89E4D500000AB6 /* XCRemoteSwiftPackageReference "USDZScanner" */;
-			productName = USDZScanner;
+			package = 5DF643B42C8B0D4800DD3FA5 /* XCRemoteSwiftPackageReference "USDZARCamera" */;
+			productName = USDZARCamera;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

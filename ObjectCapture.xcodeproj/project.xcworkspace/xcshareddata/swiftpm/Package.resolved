@@ -118,12 +118,12 @@
       }
     },
     {
-      "identity" : "usdzscanner",
+      "identity" : "usdzarcamera",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/alfianlosari/USDZScanner.git",
+      "location" : "https://github.com/JeckyKukadiya/USDZARCamera",
       "state" : {
-        "revision" : "d5da079adcf29e22acabc0f713bb9264e44c8938",
-        "version" : "0.2.0"
+        "revision" : "9784f97e3a7cc4d731807142f3cb4830d0115d2c",
+        "version" : "1.0.0"
       }
     }
   ],
